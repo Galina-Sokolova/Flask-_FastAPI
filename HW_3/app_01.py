@@ -26,6 +26,7 @@ def index():
     }
     return render_template('index.html', **context)
 
+
 # инициализация БД
 @app.cli.command("init-db")
 def init_db():
